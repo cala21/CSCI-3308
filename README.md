@@ -1,12 +1,4 @@
-#Camilla Lambrocco - LAB 3
+# Project CSCI 3308
+## NAS Implementation
 
-
-This is another change to the readme file (I switched to the master branch)
-
-###Changed file
-
-
-this might create conflict
-
-Partner: Phu Dang
 
