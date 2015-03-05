@@ -53,7 +53,7 @@ PRIMARY KEY (`User_ID`)
 
 
 
-CREATE TABLE IF NOT EXISTS `HARDWEAR_COMP` (
+CREATE TABLE IF NOT EXISTS `HARDWARE_COMP` (
 `Name_comp` varchar(40) NOT NULL,
 `ID_product` varchar(40) NOT NULL,
 `Price` varchar(40) NOT NULL,
