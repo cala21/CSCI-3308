@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>sett.png</file>
+        <file>mem.png</file>
+        <file>BuffLogo.png</file>
+        <file>batt.png</file>
+        <file>add_user.png</file>
+        <file>back.png</file>
+        <file>BuffLogo3.png</file>
+    </qresource>
+</RCC>
