@@ -7,5 +7,7 @@
         <file>add_user.png</file>
         <file>back.png</file>
         <file>BuffLogo3.png</file>
+        <file>cpu.png</file>
+        <file>BuffLogoGui.png</file>
     </qresource>
 </RCC>

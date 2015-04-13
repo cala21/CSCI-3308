@@ -52,11 +52,19 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>60</y>
-      <width>59</width>
+      <x>246</x>
+      <y>64</y>
+      <width>61</width>
       <height>16</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Purisa</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>Settings</string>
@@ -67,9 +75,17 @@
      <rect>
       <x>20</x>
       <y>200</y>
-      <width>71</width>
-      <height>16</height>
+      <width>150</width>
+      <height>20</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Purisa</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>TextLabel</string>
@@ -78,11 +94,19 @@
    <widget class="QLabel" name="tLab">
     <property name="geometry">
      <rect>
-      <x>230</x>
+      <x>250</x>
       <y>200</y>
-      <width>59</width>
-      <height>16</height>
+      <width>71</width>
+      <height>20</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Purisa</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>TextLabel</string>

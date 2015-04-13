@@ -16,8 +16,8 @@
   <widget class="QPushButton" name="BackUsr">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>190</y>
+     <x>5</x>
+     <y>195</y>
      <width>51</width>
      <height>41</height>
     </rect>
@@ -34,6 +34,60 @@
      <width>40</width>
      <height>40</height>
     </size>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollUsers">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>280</width>
+     <height>174</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Images/BuffLogo.png);</string>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>280</width>
+      <height>174</height>
+     </rect>
+    </property>
+    <zorder>labelGrouopUsr</zorder>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="labelGrouopUsr">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>30</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Purisa</family>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string>Group Users:</string>
    </property>
   </widget>
  </widget>

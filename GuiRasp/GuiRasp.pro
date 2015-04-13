@@ -8,6 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
+
 TARGET = GuiRasp
 TEMPLATE = app
 
@@ -15,21 +16,21 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     sett.cpp \
-    datetime.cpp \
     usr.cpp \
-    memory.cpp
+    memory.cpp \
+    cpu.cpp
 
 HEADERS  += mainwindow.h \
     sett.h \
-    datetime.h \
     usr.h \
-    memory.h
+    memory.h \
+    cpu.h
 
 FORMS    += mainwindow.ui \
     sett.ui \
-    datetime.ui \
     usr.ui \
-    memory.ui
+    memory.ui \
+    cpu.ui
 
 RESOURCES += \
     images.qrc
