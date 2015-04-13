@@ -8,6 +8,6 @@ The project focuses on the realization of an economic Raspberry Pi server/NAS st
 * coding UI to let admin check the status of the server/NAS storage.
 
 
-Thanks to the implementation of an LCD touch screen on the board the admin will be able to control the remaining storage, the registered users and the CPU status. This is achived through a custom GUI compiled in g++.
+Thanks to the implementation of a LCD touch screen (Adafruit 2.8") on the admin will be able to control the remaining storage, the registered users and the CPU status. This is achived through a custom GUI compiled in g++.
 
 
