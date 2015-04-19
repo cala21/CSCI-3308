@@ -1,5 +1,0 @@
-var searchData=
-[
-  ['register_2ephp',['register.php',['../register_8php.html',1,'']]],
-  ['remove_2ephp',['remove.php',['../remove_8php.html',1,'']]]
-];
