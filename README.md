@@ -9,5 +9,6 @@ The project focuses on the realization of an economic Raspberry Pi server/NAS st
 
 
 Thanks to the implementation of a LCD touch screen (Adafruit 2.8") the admin will be able to control the remaining storage, the registered users and the CPU status. This is achieved through a custom GUI compiled in g++.
+The RPi hosts (http://Buff-box.com). This Website will allow to access the BuFfBox system and store the personal data in the RPi NAS storage. The system can be access as a normal NAS storage as well, this is done to give more variety in accessibility.
 
 
