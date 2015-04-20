@@ -12,6 +12,9 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = GuiRasp
 TEMPLATE = app
 
+LIBS += \
+       -lboost_system\
+       -lboost_filesystem\
 
 SOURCES += main.cpp\
         mainwindow.cpp \

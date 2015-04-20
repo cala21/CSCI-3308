@@ -1,13 +1,29 @@
 #include "memory.h"
 #include "ui_memory.h"
-
+#include <boost/any.hpp>
+#include <qcombobox.h>
+#include <boost/filesystem.hpp>
+#include <boost/operators.hpp>
 #include <iostream>
+using namespace boost::filesystem;
 using namespace std;
 
 /**
  * @brief Memory::Memory
  * @param parent
  */
+
+QString *comboHelper(string myPath)
+{
+    path volumePath (myPath);
+    space_info volumeSpace = space(volumePath);
+    quint64 FreeStorage = volumeSpace.available;
+    quint64 TotalStorage = volumeSpace.capacity;
+    QString *storage = new QString[2];
+    storage[0] = QString::number(FreeStorage/ 1073741824) + " GiB";
+    storage[1] = QString::number(TotalStorage / 1073741824) + " GiB";
+    return storage;
+}
 
 Memory::Memory(QWidget *parent) :
     QDialog(parent),
@@ -16,8 +32,13 @@ Memory::Memory(QWidget *parent) :
     ui->setupUi(this);
     connect(ui->BackMem,SIGNAL(clicked()),this->parent(),SLOT(show()));
     connect(ui->BackMem,SIGNAL(clicked()),this,SLOT(hide()));
-    connect(ui->refreshButton, &QPushButton::clicked, this, &Memory::refresh);
-    connect(ui->volumeComboBox, static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged), this, &Memory::update);
+
+
+    ui->volumeComboBox->addItem("home");
+    ui->volumeComboBox->addItem("dev1");
+    ui->volumeComboBox->addItem("dev2");
+    connect(ui->volumeComboBox,SIGNAL(currentIndexChanged(QString)),this ,SLOT(update()));
+    connect(ui->refreshButton, SIGNAL(clicked()), this,SLOT(refresh()));
 
     ui->BackMem->setStyleSheet("QPushButton{background: transparent;}");
     ui->refreshButton->setStyleSheet("QPushButton{background: white;}");
@@ -43,39 +64,41 @@ void Memory::centerWindow()
     this->show();
 }
 
+
 void Memory::refresh()
 {
-    ui->volumeComboBox->clear();
-    QStorageInfo volume;
-    int numberOfVolumes = QStorageInfo::mountedVolumes().size();
+    ui->volumeComboBox->setCurrentText("home");
+    ui->rootPathLabel->setText("/home");
+    ui->bytesAvailableLabel->setText(comboHelper("/home")[0]);//QString::number(FreeStorage/ 1073741824) + tr(" GiB"));
+    ui->totalStorageLabel->setText(comboHelper("/home")[1]);//QString::number(TotalStorage / 1073741824) + tr(" GiB"));
 
-    for (int i = 0; i<numberOfVolumes; i++) {
-        // Store the path as data value for the combobox.
-        volume = QStorageInfo::mountedVolumes()[i];
-        ui->volumeComboBox->addItem(volume.displayName(), QVariant(volume.rootPath()));
-    }
 }
 
 
 void Memory::update()
 {
-    QStorageInfo volume;
-    // The path is stored in the data value of the combobox.
-    volume.setPath(ui->volumeComboBox->currentData().toString());
-
-    if (volume.isValid())
+    cout <<"hello"<<endl;
+    ui->deviceLabel->setText(ui->volumeComboBox->currentText());
+    if (ui->volumeComboBox->currentText() == "home")
     {
-        ui->deviceLabel->setText(volume.device());
-        ui->rootPathLabel->setText(volume.rootPath());
-        ui->typeLabel->setText(volume.fileSystemType());
-        ui->bytesAvailableLabel->setText(QString::number(volume.bytesAvailable() / 1073741824) + tr(" GiB"));
+        ui->rootPathLabel->setText("/home");
+        ui->bytesAvailableLabel->setText(comboHelper("/home")[0]);//QString::number(FreeStorage/ 1073741824) + tr(" GiB"));
+        ui->totalStorageLabel->setText(comboHelper("/home")[1]);//QString::number(TotalStorage / 1073741824) + tr(" GiB"));
     }
 
-    else
+    if (ui->volumeComboBox->currentText() == "dev1")
     {
-        ui->deviceLabel->setText(tr("invalid"));
-        ui->rootPathLabel->setText(tr("invalid"));
-        ui->typeLabel->setText(tr("invalid"));
-        ui->bytesAvailableLabel->setText(tr("invalid"));
+        ui->rootPathLabel->setText("/home/CU");
+        ui->bytesAvailableLabel->setText(comboHelper("/home/CU")[0]);//QString::number(FreeStorage/ 1073741824) + tr(" GiB"));
+        ui->totalStorageLabel->setText(comboHelper("/home/CU")[1]);//QString::number(TotalStorage / 1073741824) + tr(" GiB"));
     }
-}
+
+    if (ui->volumeComboBox->currentText() == "dev2")
+    {
+        ui->rootPathLabel->setText("/home/user/Dropbox");
+        ui->bytesAvailableLabel->setText(comboHelper("/home/user/Dropbox")[0]);//QString::number(FreeStorage/ 1073741824) + tr(" GiB"));
+        ui->totalStorageLabel->setText(comboHelper("/home/user/Dropbox")[1]);//QString::number(TotalStorage / 1073741824) + tr(" GiB"));
+    }
+
+  }
+

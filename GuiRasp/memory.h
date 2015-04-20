@@ -29,7 +29,7 @@
 #include <QMessageBox>
 #include <QStringList>
 #include <QDesktopWidget>
-#include <QStorageInfo>
+//#include <QStorageInfo>
 #include <QDebug>
 
 namespace Ui {
@@ -49,6 +49,16 @@ public:
      *         into the argument color.
      *  @return Void.
      */
+    void centerWindow();
+
+private slots:
+
+
+    /** @brief Writes the current foreground and background
+     *         color of characters printed on the console
+     *         into the argument color.
+     *  @return Void.
+     */
     void update();
 
     /** @brief Writes the current foreground and background
@@ -57,15 +67,6 @@ public:
      *  @return Void.
      */
     void refresh();
-
-    /** @brief Writes the current foreground and background
-     *         color of characters printed on the console
-     *         into the argument color.
-     *  @return Void.
-     */
-    void centerWindow();
-
-private slots:
 
 private:
     Ui::Memory *ui;
