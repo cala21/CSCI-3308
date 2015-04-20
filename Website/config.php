@@ -1,7 +1,7 @@
 <?php 
 
     // These variables define the connection information for your MySQL database 
-    $username = "stepup2stepout"; 
+    $username = "root"; 
     $password = "Liris72259"; 
     $host = "localhost"; 
     $dbname = "phpmyadmin"; 
