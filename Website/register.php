@@ -89,14 +89,9 @@
         } 
         catch(PDOException $ex){ die("Failed to run query: " . $ex->getMessage()); } 
         $user = $_POST['username']; //pull the username from the username field
-        $user_path= "/home/pi/Uploads/{$user}";
-        mkdir($user_path, 0777);
-        try {  
-            mkdir($user_path, 0777);
-
-        } 
-        catch(PDOException $ex){ die("Failed to create directory " . $ex->getMessage()); }
-        ;
+        $user_path= "/var/www/{$user}";
+        mkdir($user_path, 0777, true);
+        
 
         header("Location: index.php"); 
         die("Redirecting to index.php"); 
