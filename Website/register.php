@@ -83,7 +83,11 @@
             ':email' => $_POST['email'] 
         ); 
         
-
+        try {  
+            $stmt = $db->prepare($query); 
+            $result = $stmt->execute($query_params); 
+        } 
+        catch(PDOException $ex){ die("Failed to run query: " . $ex->getMessage()); } 
         $user = $_POST['username']; //pull the username from the username field
         $user_path= "/home/pi/Uploads/{$user}";
         mkdir($userpath, 0777, true);
@@ -94,7 +98,9 @@
 
     
 ?>
-
+// $user = $_POST['username']; //pull the username from the username field
+        //$user_path= "/home/pi/Uploads/{$user}";
+        //mkdir($userpath, 0777, true);
 <!doctype html>
 <html lang="en">
 <head>
