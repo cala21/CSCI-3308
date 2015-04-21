@@ -98,9 +98,6 @@
 
     
 ?>
-// $user = $_POST['username']; //pull the username from the username field
-        //$user_path= "/home/pi/Uploads/{$user}";
-        //mkdir($userpath, 0777, true);
 <!doctype html>
 <html lang="en">
 <head>
