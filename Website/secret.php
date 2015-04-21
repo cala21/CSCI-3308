@@ -1,13 +1,13 @@
 <?php
     require("config.php");
-    if(empty($_SESSION['username'])) 
+/*    if(empty($_SESSION['username'])) 
     {
         header("Location: index.php");
         die("Redirecting to index.php"); 
-    }
+    }*/
 ?>
 <?php
-$user = $_POST['username'];
+$user = $_SESSION['username'];
 $dir    = "/var/www/Uploads/{$user}";
 $files1 = scandir($dir);
 $files2 = scandir($dir, 1);

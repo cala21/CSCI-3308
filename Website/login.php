@@ -38,7 +38,7 @@
             unset($row['salt']); 
             unset($row['password']); 
             $_SESSION['user'] = $row;  
-            $user = $_POST['username']; //pull the username from the username field
+            $user = $_SESSION['username']; //pull the username from the username field
             $user_path= "/var/www/Uploads/{$user}";
             opendir($user_path);
             header("Location: secret.php"); 
