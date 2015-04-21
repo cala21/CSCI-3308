@@ -1,10 +1,10 @@
 <?php
     require("config.php");
-    if(empty($_SESSION['username'])) 
+/*    if(empty($_SESSION['username'])) 
     {
         header("Location: index.php");
         die("Redirecting to index.php"); 
-    }
+    }*/
 ?>
 <?php
 $user = $_POST['username'];
