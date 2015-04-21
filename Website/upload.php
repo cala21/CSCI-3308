@@ -1,6 +1,6 @@
 <?php
-$query_user= "SELECT username FROM user";
-$user = mysql_query($query_user);
+//$query_user= "SELECT username FROM user";
+$user = $_GET['user'];
 $target_dir = "/var/www/RAID/{$user}";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;

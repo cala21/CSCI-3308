@@ -38,8 +38,20 @@
             unset($row['salt']); 
             unset($row['password']); 
             $_SESSION['user'] = $row;  
-            $query_user= "SELECT username FROM user";
-            $user = mysql_query($query_user);
+            /*$query_user= "SELECT 
+                        username  
+                        FROM
+                         users
+                         WHERE 
+                         username = :username";
+            try{ 
+            $stmt = $db->prepare($query_user); 
+            $user = $stmt->execute($query_params); 
+            }
+
+            catch(PDOException $ex){ die("Failed to run query: " . $ex->getMessage()); } */
+
+            $user = $_SESSION['user'];
             $user_path= "/var/www/RAID/{$user}";
             opendir($user_path);
             header("Location: secret.php"); 

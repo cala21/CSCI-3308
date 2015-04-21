@@ -7,8 +7,8 @@
     }*/
 ?>
 <?php
-$query_user= "SELECT username FROM user";
-$user = mysql_query($query_user);
+//$query_user= "SELECT username FROM user";
+$user = $_GET['user'];
 $dir    = "/var/www/RAID/{$user}";
 $files1 = scandir($dir);
 $files2 = scandir($dir, 1);
@@ -72,8 +72,8 @@ print_r($files2);
 <h1>List of files:</h1>
 <?php
             //scan "uploads" folder and display them accordingly
-           $query_user= "SELECT username FROM user";
-           $user = mysql_query($query_user);
+           //$query_user= "SELECT username FROM user";
+           $user = $_GET['user'];
            $folder = "/var/www/RAID/{$user}";
            $results = scandir("/var/www/RAID/{$user}");
            foreach ($results as $result) {
