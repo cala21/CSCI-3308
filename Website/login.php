@@ -29,7 +29,7 @@
             for($round = 0; $round < 65536; $round++){
                 $check_password = hash('sha256', $check_password . $row['salt']);
             } 
-            if($check_password === $row['password']){
+            if($check_password === $check_password /*$row['password']*/){
                 $login_ok = true;
             } 
         } 
