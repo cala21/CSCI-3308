@@ -1,0 +1,474 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201504 will be lost/reset.
+# Last config file used to build this data file was /home/buffbox/tmp/awstats/awstats.buff-box.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2685                
+POS_VISITOR 9541                
+POS_DAY 13402               
+POS_DOMAIN 3433                
+POS_LOGIN 3769                
+POS_ROBOT 3924                
+POS_WORMS 4470                
+POS_EMAILSENDER 4601                
+POS_EMAILRECEIVER 4744                
+POS_SESSION 13897               
+POS_SIDER 14103               
+POS_FILETYPES 4879                
+POS_DOWNLOADS 5078                
+POS_OS 5126                
+POS_BROWSER 5339                
+POS_SCREENSIZE 5955                
+POS_UNKNOWNREFERER 6029                
+POS_UNKNOWNREFERERBROWSER 6276                
+POS_ORIGIN 6518                
+POS_SEREFERRALS 6657                
+POS_PAGEREFS 6812                
+POS_SEARCHWORDS 6960                
+POS_KEYWORDS 7112                
+POS_MISC 2349                
+POS_ERRORS 7171                
+POS_CLUSTER 3625                
+POS_SIDER_404 7269                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150419035750 30 4904 7319394116854
+FirstTime 20150401003210
+LastTime 20150419035750
+LastUpdate 20150419051116 30 0 30 0 0
+TotalVisits 115                 
+TotalUnique 96                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 96                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 2041 7 16 163582
+1 0 0 0 5 9 151177
+2 2 2 5248 2 8 129085
+3 9 9 21436 8 10 9914
+4 3 3 7872 8 15 157546
+5 0 0 0 5 9 180785
+6 1 1 2290 4 11 381096
+7 4 4 8533 6 10 9052
+8 12 17 293904 11 19 325096
+9 24 27 205983 3 5 39960
+10 38 52 312780 11 17 6074
+11 107 230 2691782 14 58 277312
+12 8 25 279297 3 19 3971
+13 41 166 1226734 9 17 43816
+14 56 141 1094118 48 71 209727
+15 90 267 2786806 30 65 251174
+16 135 335 6015824 26 67 361961
+17 164 451 7587942 33 125 3112
+18 34 45 326196 14 17 8690
+19 32 125 1240288 11 25 184271
+20 36 149 2693147 8 12 26
+21 11 24 430671 6 10 11669
+22 1 4 51777 1 1 2484
+23 7 7 12306 5 10 330925
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+us 766 2030 26905752
+cn 23 23 56726
+zz 16 16 40399
+ru 3 8 273689
+de 3 3 7872
+ua 2 2 5248
+ca 1 1 2624
+fr 1 1 2624
+lu 1 1 2041
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+spider 43 1451340 20150418115131 0
+googlebot 34 1023616 20150417154225 0
+bot[\s_+:,\.\;\/\\-] 32 407604 20150418163022 0
+ia_archiver 12 27219 20150414010419 0
+google[_+\s]web[_+\s]preview 6 268742 20150412114340 0
+curl 3 7872 20150413174229 0
+robot 3 0 20150415023147 0
+crawl 3 9538 20150416232011 0
+no_user_agent 1 2624 20150406165819 0
+googlebot\-image 1 39959 20150417152915 0
+netcraft 1 2624 20150408150623 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 445 809345 0 0
+css 482 14429993 0 0
+png 424 5620991 0 0
+html 369 623837 0 0
+jpg 37 3418291 0 0
+js 326 2329066 0 0
+woff 2 65452 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+blackberry 3 3
+winlong 20 8
+winxp 26 26
+ios_iphone 52 15
+linux 21 16
+win7 1359 397
+macosx 518 299
+win2003 9 6
+win8 13 3
+Unknown 21 21
+win8.1 43 22
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 29
+firefox28.0 1 1
+msie6.0 1 1
+blackberry 3 3
+chrome42.0.2311.60 376 87
+chrome5.0.375.99 2 2
+firefox21.0 1 1
+chrome40.0.2214.111 1 1
+chrome28.0.1500.95 6 1
+chrome41.0.2272.118 156 95
+chrome41.0.2272.104 251 133
+firefox1.0.4 3 3
+firefox2.0.0.13 3 3
+safari8.0.4 93 54
+msie11.0 13 3
+firefox6.0.2 17 17
+firefox37.0 1 1
+firefox14.0.1 4 4
+firefox22.0 1 1
+msie7.0 29 14
+chrome34.0.1847.116 12 7
+firefox6.0 5 5
+chrome42.0.2311.82 351 101
+chrome42.0.2311.68 603 190
+chrome41.0.2272.89 42 21
+safari8.0 62 25
+chrome11.0.696.71 2 2
+firefox36.0 1 1
+Unknown 21 21
+firefox35.0 24 18
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Porkbun/Mustache_(Website_Analysis;_http://porkbun.com;_tech@porkbun.com) 20150404110217
+Hivemind 20150418193715
+Firefox 20150404140757
+NerdyBot 20150418093408
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Porkbun/Mustache_(Website_Analysis;_http://porkbun.com;_tech@porkbun.com) 20150404110217
+Hivemind 20150418193715
+Firefox 20150404140757
+NerdyBot 20150418093408
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 309 312
+From1 1 1
+From2 1 1
+From3 0 0
+From4 505 1771
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+302 58 1367
+404 330 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 47
+/Logo_nobg.png 8 http://buff-box.com/
+/robots.txt 57 -
+/uploads/andrew_pic.jpg 6 http://buff-box.com/About_page.html
+/css/grayscale.css 1 http://buff-box.com/
+/admin.php 2 -
+/home/buffbox/uploads//logout.php 18 http://buff-box.com/secret.php
+/js/jquery.easing.min.js 1 http://buff-box.com/
+/logon.php 2 -
+/asset/Logo_nobg.png 3 -
+/contact_us/assets/bootstrap.min.css 12 http://buff-box.com/contact_us/contactform.php
+/contact_us/assets/buff-box_custom.css 12 http://buff-box.com/contact_us/contactform.php
+/blog/xmlrpc.php 1 -
+/home/buffbox/uploads//secret.php 16 http://buff-box.com/secret.php
+/admin/index.php 1 -
+/m/ 4 -
+/home/buffbox/uploads//andrew_pic.jpg 23 http://buff-box.com/secret.php
+/xmlrpc.php 1 -
+/About_page.php 4 http://buff-box.com/
+/home/buffbox/uploads//index.html 20 http://buff-box.com/secret.php
+//webalizer/ 1 -
+/img/glyphicons-halflings.png 12 http://buff-box.com/
+/buff-box.com 4 http://buff-box.com/About_page.html
+/contact_us/assets/bootstrap.min.js 11 http://buff-box.com/contact_us/contactform.php
+/core/model/phpthumb/fonts/readme.txt 1 -
+/bitrix/admin/index.php 1 -
+/wp-content/plugins/simple-ads-manager/readme.txt 1 -
+/home/buffbox/uploads//register.php 7 http://buff-box.com/secret.php
+/js/bootstrap.min.js 1 http://buff-box.com/
+/mobile/ 4 -
+/font-awesome/css/font-awesome.min.css 1 http://buff-box.com/
+/contact_us/assets/bglight.png 37 http://buff-box.com/contact_us/contactform.php
+/js/grayscale.js 1 http://buff-box.com/
+/register_form.html 8 -
+/home/buffbox/uploads//remove.php 16 http://buff-box.com/secret.php
+/css/bootstrap.min.css 1 http://buff-box.com/
+/resiter.php 2 -
+/wp 1 http://buff-box.com/wp
+/js/jquery.js 1 http://buff-box.com/
+/administrator/ 2 -
+/About/About_page.html 4 -
+/%5C 1 -
+/About_page.html 5 http://buff-box.com/
+/contact_us/assets/Logo_nobg.png 8 http://buff-box.com/contact_us/contactform.php
+/index.hp 2 -
+/wp-login.php 3 -
+/misc/drupal.js 1 -
+/assets/buffbox-custom.css 1 http://buff-box.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 96
+128.138.65.94 189 598 3256580 20150408141535
+96.88.77.243 112 207 925280 20150401181856
+128.138.65.134 99 401 4894467 20150411162016
+128.138.65.85 65 113 1170842 20150415143025
+128.138.65.75 61 153 1721561 20150410121734
+128.138.65.214 34 183 8876795 20150411180037
+128.138.65.139 29 37 31322 20150402102303
+128.138.64.37 21 26 276709 20150413165850
+128.138.65.118 21 36 343806 20150411172901
+128.138.64.170 11 16 277930 20150413164151
+128.138.65.158 11 23 10769 20150401134735
+54.209.60.63 10 10 17531 20150405100853
+128.138.65.74 9 16 345113 20150401203237
+128.138.65.110 8 13 281048 20150416182751
+76.120.78.78 8 16 276916 20150416183935
+128.138.65.235 7 8 4722 20150404152551
+69.58.178.57 7 7 16188 20150418035524
+128.138.65.121 6 11 181243 20150408171818
+173.14.10.89 6 15 28802 20150413113644
+128.138.65.99 6 18 272445 20150404152348
+38.100.21.66 6 9 161322 20150418092604
+67.176.78.112 4 14 83310 20150404224718
+128.138.65.93 3 14 563577 20150410110637
+52.5.161.113 3 3 7872 20150405205309
+128.138.65.135 3 7 149215 20150401200002
+176.9.155.247 1 1 2624 20150416030422
+37.230.114.209 1 1 2041 20150401003210
+23.236.53.88 1 1 2624 20150411093405
+192.237.216.89 1 1 2624 20150405133233
+46.118.159.76 1 1 2624 20150418045818
+85.95.169.208 1 1 2624 20150414102837
+107.155.70.247 1 1 2518 20150404140757
+220.181.108.77 1 1 2624 20150411155925
+93.81.76.142 1 6 268441 20150405085245
+123.125.71.43 1 1 2624 20150409041221
+107.181.190.103 1 1 2624 20150419035750 20150419035750 /
+130.211.189.7 1 1 2624 20150414093422
+192.99.40.137 1 1 2624 20150409165244
+104.197.18.96 1 1 2041 20150401093431
+180.76.4.241 1 1 2290 20150403201307
+123.125.71.53 1 1 2624 20150410084439
+66.102.7.154 2 2 5248 20150414100630
+128.138.65.179 1 5 266744 20150401194010
+66.102.6.211 1 1 2624 20150417201900
+217.12.206.140 1 1 2624 20150405091836
+220.181.108.78 1 1 2624 20150417215503
+5.9.16.195 1 1 2624 20150416072901
+104.197.44.163 1 1 2290 20150403093559
+123.125.71.112 1 1 2624 20150417215032
+123.125.71.47 2 2 5248 20150416110653
+54.149.107.194 1 1 2290 20150404110217
+104.154.45.205 1 1 2624 20150412093314
+104.154.48.165 1 1 2290 20150402093452
+180.76.4.42 1 1 2624 20150413081518
+180.76.4.109 1 1 2624 20150408021659
+220.181.108.147 1 1 2624 20150410084908
+180.76.4.93 1 1 2290 20150402182247
+128.138.65.212 1 4 0 20150415150559
+87.98.171.200 1 1 2624 20150408082333
+66.102.6.227 1 1 2624 20150416142037
+104.197.36.104 1 1 2624 20150405093606
+220.181.108.186 1 1 2624 20150409041725
+180.76.4.73 1 1 2290 20150404061803
+162.222.178.131 1 1 2624 20150413093035
+97.74.104.6 2 11 536327 20150404142151
+104.197.17.46 1 1 2624 20150418093408
+54.204.122.31 1 1 2624 20150418193715
+123.125.71.107 1 1 2624 20150419024950
+128.138.65.203 1 4 177006 20150418135939
+123.125.71.115 1 1 2624 20150417185807
+104.197.32.250 1 1 2624 20150416093527
+128.138.65.223 2 6 268829 20150401194726
+104.197.39.218 1 1 2624 20150408084745
+123.125.71.74 1 1 2624 20150418184922
+123.125.71.86 1 1 2624 20150414084806
+146.148.43.147 1 1 2624 20150415093438
+104.197.34.67 1 1 2624 20150406093410
+104.154.46.231 1 1 2624 20150409084802
+220.181.108.151 1 1 2624 20150416111147
+220.181.108.117 1 1 2624 20150418185456
+104.197.36.98 1 1 2290 20150404093519
+104.154.41.20 1 1 2624 20150410093318
+76.120.77.121 1 5 147674 20150401211607
+128.138.65.76 3 13 538436 20150404152244
+104.197.38.110 1 1 2624 20150407093436
+220.181.108.103 1 1 2624 20150414085153
+128.138.65.100 1 6 268214 20150404131305
+97.74.104.17 1 4 226741 20150401170646
+66.102.7.168 1 1 2624 20150413162023
+80.93.62.63 1 1 2624 20150409085000
+104.197.24.156 1 1 2624 20150417093454
+202.46.50.159 1 1 0 20150410153205
+220.181.108.148 1 1 2624 20150417190304
+198.101.238.203 1 1 2624 20150405133440
+128.138.65.197 1 5 266744 20150401194621
+5.9.16.220 1 1 2624 20150408115112
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 19
+20150401 238 673 7759306 15
+20150402 36 52 575895 6
+20150403 2 2 4580 2
+20150404 208 653 4439818 12
+20150405 15 20 300493 8
+20150406 1 1 2624 1
+20150407 1 1 2624 1
+20150408 17 29 453270 6
+20150409 5 5 13120 5
+20150410 108 236 2670637 9
+20150411 77 256 9223694 7
+20150412 4 6 5248 3
+20150413 60 85 884870 8
+20150414 5 5 13120 5
+20150415 4 12 273105 3
+20150416 8 16 285943 8
+20150417 6 6 15744 6
+20150418 19 25 367636 8
+20150419 2 2 5248 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 8
+5mn-15mn 6
+2mn-5mn 1
+15mn-30mn 3
+0s-30s 85
+30s-2mn 6
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/ 280 477677 110 84
+/register.php 202 226924 1 7
+/About_page.html 89 146160 1 5
+/index.php 81 208518 2 9
+/contact_us/contactform.php 61 246696 0 3
+/login.php 47 203 0 6
+/Contact_us.php 23 36717 1 0
+/secret.php 17 71498 0 0
+/About_page.php 14 18789 0 0
+/font-awesome/fonts/fontawesome-webfont.woff 2 65452 0 0
+END_SIDER

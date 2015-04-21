@@ -1,0 +1,537 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201503 will be lost/reset.
+# Last config file used to build this data file was /home/buffbox/tmp/awstats/awstats.buff-box.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2690                
+POS_VISITOR 11793               
+POS_DAY 15375               
+POS_DOMAIN 3444                
+POS_LOGIN 3826                
+POS_ROBOT 3981                
+POS_WORMS 4513                
+POS_EMAILSENDER 4644                
+POS_EMAILRECEIVER 4787                
+POS_SESSION 15983               
+POS_SIDER 16190               
+POS_FILETYPES 4922                
+POS_DOWNLOADS 5154                
+POS_OS 5202                
+POS_BROWSER 5422                
+POS_SCREENSIZE 6145                
+POS_UNKNOWNREFERER 6219                
+POS_UNKNOWNREFERERBROWSER 6631                
+POS_ORIGIN 6797                
+POS_SEREFERRALS 6935                
+POS_PAGEREFS 7079                
+POS_SEARCHWORDS 7302                
+POS_KEYWORDS 7454                
+POS_MISC 2354                
+POS_ERRORS 7513                
+POS_CLUSTER 3682                
+POS_SIDER_404 7624                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150401003210 284 67252 10308309905901
+FirstTime 20150308210259
+LastTime 20150331170359
+LastUpdate 20150401040527 284 0 283 0 0
+TotalVisits 119                 
+TotalUnique 87                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 89                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 5 133033 5 8 191954
+1 2 2 65496 6 9 194801
+2 2 2 65496 3 15 206513
+3 10 10 263965 10 15 131841
+4 13 13 425438 8 14 192915
+5 7 7 229093 4 6 48085
+6 14 14 395866 4 6 65496
+7 4 4 130992 0 0 0
+8 14 18 494504 7 10 65571
+9 27 56 2979279 3 8 0
+10 37 57 942822 14 26 483834
+11 44 79 2281491 24 46 610024
+12 42 84 182317 36 59 1793
+13 3 3 67537 7 9 849
+14 11 42 2663300 7 67 0
+15 14 82 3071688 12 50 442541
+16 10 51 2689081 8 25 188766
+17 15 57 1909894 22 33 66421
+18 1 21 659514 21 104 3801453
+19 2 28 2199391 10 25 295086
+20 0 0 0 12 29 524663
+21 11 11 359799 10 121 1036125
+22 11 40 2650115 6 14 192806
+23 5 12 274899 4 9 177976
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+us 255 619 22913233
+zz 24 24 570860
+de 6 6 165781
+ua 4 4 99093
+ca 4 34 1089556
+fr 4 4 67537
+cn 2 2 65210
+it 1 1 32748
+ru 1 1 32748
+cz 1 1 32748
+nl 1 1 32748
+gb 1 1 32748
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+googlebot 76 2477282 20150329114141 0
+spider 47 1743203 20150331013102 0
+php 30 2862548 20150312180218 0
+robot 11 230085 20150328215520 0
+bot[\s_+:,\.\;\/\\-] 10 264874 20150330040152 0
+no_user_agent 7 229236 20150322180746 0
+googlebot\-image 6 602705 20150321105011 0
+crawl 4 99093 20150316211708 0
+curl 3 65496 20150319115820 0
+ia_archiver 2 33597 20150311221739 0
+msnbot 2 65496 20150316152444 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 73 3195576 0 0
+png 91 11217788 0 0
+ttf 2 224320 0 0
+cgi 2 1981 0 0
+woff 10 654520 0 0
+php 123 220333 0 0
+html 167 4438078 0 0
+js 144 2697466 0 0
+jpg 86 2484948 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+winlong 66 63
+winxp 9 9
+ios_iphone 29 3
+winnt 31 1
+macosx5 1 1
+linux 104 21
+win7 108 27
+macosx 224 122
+macosx9 1 1
+win8.1 78 19
+Unknown 46 36
+macosx7 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 35
+firefox28.0 4 4
+msie6.0 3 3
+chrome40.0.2214.115 57 5
+chrome12.0.742.100 1 1
+chrome34.0.1847.137 1 1
+chrome12.0.742.91 1 1
+chrome40.0.2214.111 2 2
+firefox34.0 1 1
+msie8.0 63 63
+chrome41.0.2272.101 9 6
+msie7.0 6 3
+firefox23.0 1 1
+chrome34.0.1847.116 12 9
+chrome37.0.2062.120 4 4
+chrome27.0.1453 28 2
+chrome41.0.2272.76 36 8
+chrome41.0.2272.74 28 2
+chrome41.0.2272.89 13 9
+safari8.0 1 1
+Unknown 28 28
+msie5.5 30 0
+chrome41.0.2272.104 186 112
+chrome42.0.2311.22 28 2
+firefox3.6.23 2 2
+firefox2.0.0.11 2 2
+firefox33.0 1 1
+firefox1.0 1 1
+mozilla 18 8
+netscape5.0 3 3
+firefox14.0.1 3 3
+chrome42.0.2311.39 29 3
+chrome11.0.696.71 4 4
+firefox36.0 28 2
+safari 63 6
+firefox3.6.13 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0_(compatible;_Owler/0.4;__;_) 20150324221939
+Mozilla/5.0_(compatible;_PageAnalyzer/1.1;) 20150316222657
+Mozilla/5.0 20150308210854
+()_{_:;};_/bin/bash_-c_\ 20150330035909
+Ruby 20150315004332
+NerdyBot 20150331093547
+Mozilla/4.0_(compatible;_http://search.thunderstone.com/texis/websearch/about.html) 20150316232335
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+()_{_:;};_/bin/bash_-c_\ 20150330035909
+Ruby 20150315004332
+NerdyBot 20150331093547
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 172 212
+From1 6 6
+From2 0 0
+From3 6 6
+From4 120 474
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://pizza-tycoon.de 2 2
+http://hvd-store.com 2 2
+http://hundejo.com 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 30 717
+206 31 245181
+404 429 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 93
+/img/about/3.jpg 5 http://buff-box.com/
+/ 4 -
+/cgi-bin/test-cgi.pl 1 ()%20{%20:
+/img/portfolio/roundicons-free.png 5 http://buff-box.com/
+/robots.txt 54 -
+/admin.php 4 -
+/js/agency.js 7 http://buff-box.com/
+/forum/ 1 -
+/home/buffbox/uploads//logout.php 11 http://www.buff-box.com/secret.php
+/startbootstrap-agency-1.0.2/img/team/andrew_pic.jpg 21 http://buff-box.com/
+/cgi-bin/test.sh 1 ()%20{%20:
+/home/buffbox/uploads//IMG_0027.jpg 6 http://buff-box.com/secret.php
+/img/logos/creative-market.jpg 5 http://buff-box.com/
+/css/agency.css 7 http://buff-box.com/
+/cgi-bin/sat-ir-web.pl 1 ()%20{%20:
+/shop/js/mage/cookies.js 1 http://BUFF-BOX.com
+/home/buffbox/uploads//secret.php 11 http://www.buff-box.com/secret.php
+/js/cbpAnimatedHeader.js 7 http://buff-box.com/
+/cgi-bin/php5-cli 1 ()%20{%20:
+/img/team/andrew_pic.jpg 5 http://buff-box.com/
+/blog/wp-includes/js/tinymce/utils/mctabs.js 1 -
+/home/buffbox/uploads//index.html 11 http://www.buff-box.com/secret.php
+/cgi-sys/php5 1 ()%20{%20:
+/img/portfolio/startup-framework-preview.png 5 http://buff-box.com/
+/cgi-bin/forum.cgi 1 ()%20{%20:
+/cgi-bin/defaultwebpage.cgi 1 ()%20{%20:
+/startbootstrap-agency-1.0.2/img/team/1.jpg 19 http://buff-box.com/
+/js/contact_me.js 7 http://buff-box.com/
+/img/portfolio/treehouse-preview.png 5 http://buff-box.com/
+/img/about/1.jpg 5 http://buff-box.com/
+/startbootstrap-agency-1.0.2/img/logos/designmodo.jpg 1 http://buff-box.com/
+/home/buffbox/uploads//IMG_0207.jpg 6 http://buff-box.com/secret.php
+/domainsigma_removal_89d37003fdc6890f1fa719763b4bdebcef81bb05.html 1 -
+/img/portfolio/dreams-preview.png 6 http://buff-box.com/
+/img/team/1.jpg 4 http://buff-box.com/
+/js/classie.js 7 http://buff-box.com/
+/js/jquery.js 7 http://buff-box.com/
+/startbootstrap-agency-1.0.2/img/logos/envato.jpg 1 http://buff-box.com/
+/img/logos/themeforest.jpg 5 http://buff-box.com/
+/cgi-bin/bash 1 ()%20{%20:
+/administrator/ 3 -
+/img/logos/designmodo.jpg 5 http://buff-box.com/
+/img/about/2.jpg 5 http://buff-box.com/
+/cgi-bin/fire.cgi 1 ()%20{%20:
+/img/logos/envato.jpg 5 http://buff-box.com/
+/cgi-bin/login.cgi 1 ()%20{%20:
+/password_forgotten.php 1 http://BUFF-BOX.com
+/startbootstrap-agency-1.0.2/img/team/2.jpg 23 http://buff-box.com/
+/wp-login.php 6 -
+/cgi-bin/test-cgi 1 ()%20{%20:
+/img/about/4.jpg 6 http://buff-box.com/
+/img/portfolio/golden-preview.png 5 http://buff-box.com/
+/cgi-bin/php 1 ()%20{%20:
+/cgi-bin/recent.cgi 1 ()%20{%20:
+/cgi-bin/php5 1 ()%20{%20:
+/shop/ 1 -
+/cgi-bin/php4 1 ()%20{%20:
+/login.php 9 -
+/blog/ 1 -
+/blog/wp-images/wpminilogo.png 1 -
+/cgi-bin/tools/tools.pl 1 ()%20{%20:
+/cgi-bin/index.cgi 1 ()%20{%20:
+/wp/ 1 -
+/home/buffbox/uploads//andrew_pic.jpg 11 http://www.buff-box.com/secret.php
+/js/mage/cookies.js 1 http://BUFF-BOX.com
+/img/team/2.jpg 5 http://buff-box.com/
+/phppath/php 1 ()%20{%20:
+/img/glyphicons-halflings.png 1 http://buff-box.com/
+/cgi-bin-sdb/printenv 1 ()%20{%20:
+/img/portfolio/escape-preview.png 5 http://buff-box.com/
+/cgi-mod/index.cgi 1 ()%20{%20:
+/cgi-bin//ame 1 ()%20{%20:
+/user/ 1 -
+/demo/ 1 -
+/startbootstrap-agency-1.0.2/img/logos/creative-market.jpg 1 http://buff-box.com/
+/js/bootstrap.min.js 7 http://buff-box.com/
+/cgi-bin/hello.cgi 1 ()%20{%20:
+/administrator/index.php 2 -
+/font-awesome/css/font-awesome.min.css 7 http://buff-box.com/
+/register_form.html 2 -
+/phppath/cgi_wrapper 1 ()%20{%20:
+/home/buffbox/uploads//remove.php 9 http://www.buff-box.com/secret.php
+/css/bootstrap.min.css 7 http://buff-box.com/
+/cgi-bin/meme.cgi 1 ()%20{%20:
+/cgi-bin/env.cgi 1 ()%20{%20:
+/cgi-bin/ame/ame 1 ()%20{%20:
+/js/jqBootstrapValidation.js 7 http://buff-box.com/
+/remove.php 1 http://buff-box.com/secret.php
+/cgi-bin/contact.cgi 1 ()%20{%20:
+/php_forms/logout.php 14 http://buff-box.com/
+/cgi-bin/test.cgi 1 ()%20{%20:
+/startbootstrap-agency-1.0.2/img/logos/themeforest.jpg 1 http://buff-box.com/
+/cgi-bin/main.cgi 1 ()%20{%20:
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 89
+128.138.65.191 75 121 371144 20150331122909
+23.239.196.71 22 22 720170 20150314223135
+4.15.162.252 22 38 524733 20150328142947
+65.49.54.70 18 18 589464 20150315063459
+128.138.65.97 14 23 46101 20150331125710
+50.117.87.207 12 12 392976 20150314042941
+172.246.147.196 10 10 327480 20150319082454
+76.120.78.78 9 12 232057 20150331170327
+128.138.65.162 7 11 296261 20150331083326
+63.230.65.26 6 9 222738 20150331170359
+128.138.65.139 5 33 2290618 20150309144745
+206.183.1.74 4 11 272858 20150316232335
+38.99.82.191 4 35 984782 20150317160112
+192.99.40.137 4 34 1089556 20150325175802
+74.208.167.71 3 3 4022 20150330035909
+104.197.21.105 2 2 4082 20150331093547
+128.138.65.224 2 28 2199391 20150309154023
+166.78.181.113 2 2 65496 20150311004746
+148.251.77.34 2 2 65496 20150323010943
+128.138.65.65 2 28 2199391 20150312163921
+54.183.153.209 2 5 221488 20150324221939
+128.138.65.243 2 28 100240 20150309153617
+128.138.65.247 2 28 2199391 20150311092010
+38.127.197.68 2 2 65210 20150309040403
+184.73.246.30 2 28 2199391 20150310195544
+146.148.79.135 1 1 32748 20150319093555
+85.113.55.152 1 1 32748 20150321122518
+94.131.14.5 1 1 32748 20150311130046
+104.197.20.107 1 1 2041 20150330093507
+94.131.14.4 1 1 32748 20150321141646
+82.235.56.238 1 1 0 20150322180746
+192.237.216.89 1 1 32748 20150320010904
+144.76.30.242 1 1 2041 20150327105041
+45.58.115.218 1 1 2041 20150330003154
+128.138.65.187 1 1 0 20150312155250
+128.138.65.169 1 1 849 20150312170606
+167.88.40.152 1 1 2041 20150329063117
+74.52.245.146 1 1 32605 20150309050540
+104.197.19.254 1 1 32748 20150316093754
+88.86.121.147 1 1 32748 20150315064606
+66.102.7.252 0 7 760922 
+148.251.11.211 1 1 32748 20150316222657
+146.148.41.110 1 1 32748 20150324093822
+104.197.1.8 1 1 32748 20150313093747
+95.227.221.147 1 1 32748 20150318075555
+91.121.100.66 1 1 2041 20150326161915
+104.197.22.128 1 1 32748 20150317093711
+185.58.207.63 1 1 32748 20150313133514
+66.249.88.150 1 1 32748 20150319115821
+104.197.7.162 1 1 2041 20150326093954
+172.14.252.114 1 4 208942 20150326174743
+88.198.68.140 1 1 32748 20150314210253
+104.154.89.66 1 1 32605 20150309094119
+130.211.122.109 1 1 32748 20150312093729
+104.197.6.171 1 1 32748 20150310093624
+66.102.7.245 0 11 800846 
+128.138.65.151 2 2 65496 20150310104807
+104.197.22.163 1 1 32748 20150322093914
+97.74.104.6 1 4 209329 20150325103430
+166.137.8.48 2 28 2199391 20150324222518
+69.64.155.184 1 1 32748 20150311105535
+62.210.254.239 1 1 32748 20150321123827
+89.234.157.254 1 1 32748 20150321082029
+128.138.65.188 2 28 1072067 20150318170228
+167.114.162.211 1 1 32748 20150310101057
+92.222.67.109 1 1 32748 20150314002840
+104.197.31.188 1 1 2041 20150328093530
+66.102.7.133 1 9 604875 20150319115822
+110.75.105.161 1 1 32605 20150308210852
+130.211.159.205 1 1 32748 20150321093806
+167.114.162.207 1 1 32748 20150309214041
+46.35.238.234 2 2 33597 20150314061756
+128.138.65.78 1 1 65452 20150309153720
+199.30.228.153 1 1 32748 20150313070559
+130.211.134.103 1 1 32748 20150325093712
+104.197.17.64 2 2 34789 20150329093540
+104.197.25.85 1 1 32748 20150314093819
+76.120.77.121 1 1 32605 20150308210259
+104.154.75.142 1 1 32748 20150311093526
+110.75.105.40 1 1 32605 20150308210854
+184.168.224.190 2 2 65496 20150315004332
+104.197.1.218 1 1 32748 20150315094400
+199.254.238.44 1 1 2041 20150327085225
+54.144.1.187 1 1 2041 20150328234644
+69.58.178.57 2 2 33597 20150315115155
+185.10.56.33 1 1 32748 20150324083040
+104.197.23.24 1 1 32748 20150320093551
+104.197.24.57 1 1 32748 20150318093549
+198.101.238.203 1 1 32748 20150320005100
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 24
+20150308 3 3 97815 3
+20150309 17 97 4884079 9
+20150310 31 57 3149083 12
+20150311 12 38 2526871 8
+20150312 13 69 3484243 8
+20150313 10 10 327480 7
+20150314 13 13 393825 8
+20150315 8 8 230085 6
+20150316 8 15 403850 4
+20150317 7 38 1083026 3
+20150318 6 32 1203059 4
+20150319 5 31 2297635 4
+20150320 3 3 98244 3
+20150321 5 5 163740 5
+20150322 3 3 65496 3
+20150323 2 2 65496 2
+20150324 6 35 2486375 4
+20150325 24 40 559909 4
+20150326 3 6 213024 3
+20150327 3 3 6123 3
+20150328 3 6 213024 3
+20150329 3 3 6123 3
+20150330 4 4 6063 3
+20150331 112 177 1170342 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 3
+2mn-5mn 2
+0s-30s 104
+15mn-30mn 3
+30s-2mn 3
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/ 163 4434682 113 97
+/secret.php 64 149839 1 5
+/upload.php 19 1634 0 0
+/register.php 17 24098 1 1
+/index.php 16 44284 0 1
+/font-awesome/fonts/fontawesome-webfont.woff 10 654520 2 9
+/register_form.html 4 3396 1 4
+/remove.php 4 436 0 0
+/login.php 3 42 0 0
+/font-awesome/fonts/fontawesome-webfont.ttf 2 224320 0 1
+/cgi-sys/defaultwebpage.cgi 1 1963 1 0
+/cgi-sys/entropysearch.cgi 1 18 0 1
+END_SIDER

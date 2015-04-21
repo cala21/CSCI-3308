@@ -1,0 +1,8 @@
+104.197.24.156 - - [19/Apr/2015:09:35:56 -0700] "GET / HTTP/1.0" 200 2624 "-" "NerdyBot"
+128.138.65.128 - - [19/Apr/2015:16:17:08 -0700] "GET / HTTP/1.1" 200 2624 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.18 Safari/537.36"
+128.138.65.128 - - [19/Apr/2015:16:17:09 -0700] "GET /assets/bootstrap.min.css HTTP/1.1" 200 144262 "http://buff-box.com/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.18 Safari/537.36"
+128.138.65.128 - - [19/Apr/2015:16:17:09 -0700] "GET /assets/bootstrap.min.js HTTP/1.1" 200 28663 "http://buff-box.com/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.18 Safari/537.36"
+128.138.65.128 - - [19/Apr/2015:16:17:09 -0700] "GET /assets/Logo_nobg.png HTTP/1.1" 200 39959 "http://buff-box.com/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.18 Safari/537.36"
+128.138.65.128 - - [19/Apr/2015:16:17:09 -0700] "GET /assets/buff-box_custom.css HTTP/1.1" 200 1457 "http://buff-box.com/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.18 Safari/537.36"
+128.138.65.128 - - [19/Apr/2015:16:17:09 -0700] "GET /assets/bglight.png HTTP/1.1" 200 51777 "http://buff-box.com/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.18 Safari/537.36"
+128.138.65.128 - - [19/Apr/2015:16:17:10 -0700] "GET /favicon.ico HTTP/1.1" 404 - "http://buff-box.com/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.18 Safari/537.36"
