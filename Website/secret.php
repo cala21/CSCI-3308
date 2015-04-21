@@ -1,13 +1,14 @@
 <?php
     require("config.php");
-    if(empty($_SESSION['user'])) 
+    if(empty($_SESSION['username'])) 
     {
         header("Location: index.php");
         die("Redirecting to index.php"); 
     }
 ?>
 <?php
-$dir    = './home/buffbox/uploads/';
+$user = $_POST['username'];
+$dir    = "/var/www/Uploads/{$user}";
 $files1 = scandir($dir);
 $files2 = scandir($dir, 1);
 
