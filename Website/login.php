@@ -39,7 +39,7 @@
             unset($row['password']); 
             $_SESSION['user'] = $row;  
             $user = $_SESSION['username']; //pull the username from the username field
-            $user_path= "/var/www/Uploads/{$user}";
+            $user_path= "/var/www/RAID/{$user}";
             opendir($user_path);
             header("Location: secret.php"); 
             die("Redirecting to: secret.php"); 

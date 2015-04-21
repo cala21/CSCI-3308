@@ -89,7 +89,7 @@
         } 
         catch(PDOException $ex){ die("Failed to run query: " . $ex->getMessage()); } 
         $user = $_POST['username']; //pull the username from the username field
-        $user_path= "/var/www/Uploads/{$user}";
+        $user_path= "/var/www/RAID/{$user}";
         mkdir($user_path, 0777, true);
         
 
