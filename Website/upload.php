@@ -1,6 +1,7 @@
 <?php
-$user = $_POST['username'];
-$target_dir = "/var/www/Uploads/{$user}";
+$query_user= "SELECT username FROM user";
+$user = mysql_query($query_user);
+$target_dir = "/var/www/RAID/{$user}";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);

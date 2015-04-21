@@ -7,7 +7,8 @@
     }*/
 ?>
 <?php
-$user = $_SESSION['username'];
+$query_user= "SELECT username FROM user";
+$user = mysql_query($query_user);
 $dir    = "/var/www/RAID/{$user}";
 $files1 = scandir($dir);
 $files2 = scandir($dir, 1);
@@ -71,8 +72,10 @@ print_r($files2);
 <h1>List of files:</h1>
 <?php
             //scan "uploads" folder and display them accordingly
-           $folder = "/home/buffbox/uploads/";
-           $results = scandir("/home/buffbox/uploads/");
+           $query_user= "SELECT username FROM user";
+           $user = mysql_query($query_user);
+           $folder = "/var/www/RAID/{$user}";
+           $results = scandir("/var/www/RAID/{$user}");
            foreach ($results as $result) {
             if ($result === '.' or $result === '..') continue;
             

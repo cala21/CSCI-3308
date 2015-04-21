@@ -38,7 +38,8 @@
             unset($row['salt']); 
             unset($row['password']); 
             $_SESSION['user'] = $row;  
-            $user = $_SESSION['username']; //pull the username from the username field
+            $query_user= "SELECT username FROM user";
+            $user = mysql_query($query_user);
             $user_path= "/var/www/RAID/{$user}";
             opendir($user_path);
             header("Location: secret.php"); 
