@@ -91,6 +91,16 @@
         $user = $_POST['username']; //pull the username from the username field
         $user_path= "/home/pi/Uploads/{$user}";
         mkdir($user_path, 0777);
+        if(mkdir("/home/pi/Uploads/{$user}";, 0777)){
+
+            echo "Directory Created";
+        }
+        else {
+
+            echo "FUCK";
+        }
+        ;
+
         header("Location: index.php"); 
         die("Redirecting to index.php"); 
 
