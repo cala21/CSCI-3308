@@ -1,5 +1,5 @@
 <?php
-$user = $_POST['username']
+$user = $_POST['username'];
 $target_dir = "/var/www/Uploads/{$user}";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
