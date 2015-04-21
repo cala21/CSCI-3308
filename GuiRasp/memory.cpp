@@ -35,13 +35,13 @@ Memory::Memory(QWidget *parent) :
 
 
     ui->volumeComboBox->addItem("home");
-    ui->volumeComboBox->addItem("dev1");
-    ui->volumeComboBox->addItem("dev2");
+    ui->volumeComboBox->addItem("RAID");
+    ui->BackMem->setStyleSheet("QPushButton{background: transparent;}");
+    ui->refreshButton->setStyleSheet("QPushButton{background: white;}");
     connect(ui->volumeComboBox,SIGNAL(currentIndexChanged(QString)),this ,SLOT(update()));
     connect(ui->refreshButton, SIGNAL(clicked()), this,SLOT(refresh()));
 
-    ui->BackMem->setStyleSheet("QPushButton{background: transparent;}");
-    ui->refreshButton->setStyleSheet("QPushButton{background: white;}");
+
     centerWindow();
     refresh();
     update();
@@ -67,38 +67,32 @@ void Memory::centerWindow()
 
 void Memory::refresh()
 {
-    ui->volumeComboBox->setCurrentText("home");
+    ui->volumeComboBox->setCurrentIndex(0);
     ui->rootPathLabel->setText("/home");
-    ui->bytesAvailableLabel->setText(comboHelper("/home")[0]);//QString::number(FreeStorage/ 1073741824) + tr(" GiB"));
-    ui->totalStorageLabel->setText(comboHelper("/home")[1]);//QString::number(TotalStorage / 1073741824) + tr(" GiB"));
+    ui->bytesAvailableLabel->setText(comboHelper("/home")[0]);
+    ui->totalStorageLabel->setText(comboHelper("/home")[1]);
 
 }
 
 
 void Memory::update()
 {
-    cout <<"hello"<<endl;
+
     ui->deviceLabel->setText(ui->volumeComboBox->currentText());
     if (ui->volumeComboBox->currentText() == "home")
     {
         ui->rootPathLabel->setText("/home");
-        ui->bytesAvailableLabel->setText(comboHelper("/home")[0]);//QString::number(FreeStorage/ 1073741824) + tr(" GiB"));
-        ui->totalStorageLabel->setText(comboHelper("/home")[1]);//QString::number(TotalStorage / 1073741824) + tr(" GiB"));
+        ui->bytesAvailableLabel->setText(comboHelper("/home")[0]);
+        ui->totalStorageLabel->setText(comboHelper("/home")[1]);
     }
 
-    if (ui->volumeComboBox->currentText() == "dev1")
+    if (ui->volumeComboBox->currentText() == "RAID")
     {
-        ui->rootPathLabel->setText("/home/CU");
-        ui->bytesAvailableLabel->setText(comboHelper("/home/CU")[0]);//QString::number(FreeStorage/ 1073741824) + tr(" GiB"));
-        ui->totalStorageLabel->setText(comboHelper("/home/CU")[1]);//QString::number(TotalStorage / 1073741824) + tr(" GiB"));
+        ui->rootPathLabel->setText("/var/www/RAID");
+        ui->bytesAvailableLabel->setText(comboHelper("/var/www/RAID")[0]);
+        ui->totalStorageLabel->setText(comboHelper("/var/www/RAID")[1]);
     }
 
-    if (ui->volumeComboBox->currentText() == "dev2")
-    {
-        ui->rootPathLabel->setText("/home/user/Dropbox");
-        ui->bytesAvailableLabel->setText(comboHelper("/home/user/Dropbox")[0]);//QString::number(FreeStorage/ 1073741824) + tr(" GiB"));
-        ui->totalStorageLabel->setText(comboHelper("/home/user/Dropbox")[1]);//QString::number(TotalStorage / 1073741824) + tr(" GiB"));
-    }
 
   }
 

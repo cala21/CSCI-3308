@@ -52,9 +52,9 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>246</x>
+      <x>243</x>
       <y>64</y>
-      <width>61</width>
+      <width>71</width>
       <height>16</height>
      </rect>
     </property>

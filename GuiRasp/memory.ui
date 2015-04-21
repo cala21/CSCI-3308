@@ -18,6 +18,9 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/Images/BuffLogo3.png);</string>
+  </property>
   <widget class="QPushButton" name="BackMem">
    <property name="geometry">
     <rect>
@@ -207,13 +210,13 @@
      <x>135</x>
      <y>20</y>
      <width>160</width>
-     <height>26</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>Purisa</family>
-     <pointsize>7</pointsize>
+     <pointsize>10</pointsize>
      <weight>50</weight>
      <bold>false</bold>
     </font>

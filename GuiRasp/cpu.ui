@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>CPU</class>
  <widget class="QDialog" name="CPU">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -48,7 +51,7 @@
    <property name="font">
     <font>
      <family>Purisa</family>
-     <pointsize>17</pointsize>
+     <pointsize>40</pointsize>
      <weight>75</weight>
      <bold>true</bold>
     </font>
@@ -93,6 +96,9 @@
     <string>CPU Usage:</string>
    </property>
   </widget>
+  <zorder>CPUStats</zorder>
+  <zorder>label</zorder>
+  <zorder>BackCPU</zorder>
  </widget>
  <resources>
   <include location="images.qrc"/>

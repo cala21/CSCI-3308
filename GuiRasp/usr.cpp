@@ -14,11 +14,10 @@ Usr::Usr(QWidget *parent) :
     ui(new Ui::Usr)
 {
     ui->setupUi(this);
+    ui->BackUsr->setStyleSheet("QPushButton{background: transparent;}");
     connect(ui->BackUsr,SIGNAL(clicked()),this->parent(),SLOT(show()));
     connect(ui->BackUsr,SIGNAL(clicked()),this,SLOT(hide()));
 
-    ui->BackUsr->setStyleSheet("QPushButton{background: transparent;}");
-   // ui->labelGrouopUsr->setStyleSheet("QLabel{background: white;}");
     findUsers();
     centerWindow();
 }
@@ -52,6 +51,5 @@ void Usr::findUsers()
     labelUsers->setFont(myFont);
     labelUsers->setContentsMargins(5,40,0,0);
     ui->scrollUsers->setWidget(labelUsers);
-   // ui->scrollUsers->setAlignment(Qt::AlignVCenter);
-   // ui->userslabel->
+
 }

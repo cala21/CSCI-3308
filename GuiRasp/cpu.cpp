@@ -24,10 +24,10 @@ CPU::CPU(QWidget *parent) :
     ui(new Ui::CPU)
 {
     ui->setupUi(this);
+    ui->BackCPU->setStyleSheet("QPushButton{background: transparent;}");
     connect(ui->BackCPU,SIGNAL(clicked()),this->parent(),SLOT(show()));
     connect(ui->BackCPU,SIGNAL(clicked()),this,SLOT(on_BackCPU_clicked()));
 
-    ui->BackCPU->setStyleSheet("QPushButton{background: transparent;}");
 
 
     // Update cpu stats
@@ -78,7 +78,6 @@ void CPU::showStats()
     //Hard coded because information always stored in same position
     total_proc1 = fields[1].toFloat()+fields[2].toFloat()+fields[3].toFloat()+fields[4].toFloat()+fields[5].toFloat()+fields[6].toFloat()+fields[7].toFloat();
     work_proc1 = fields[1].toFloat()+fields[2].toFloat()+fields[3].toFloat();
-
     delay();
     in.seek(0);
     line = in.readLine();
@@ -94,5 +93,6 @@ void CPU::showStats()
     ui->CPUStats->setContentsMargins(0,30,0,0);
 
     file.close();
+
 
 }
