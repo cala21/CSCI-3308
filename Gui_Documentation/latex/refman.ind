@@ -1,0 +1,40 @@
+\begin{theindex}
+
+  \item {C\+P\+U}, 5
+    \subitem {C\+P\+U}, 6
+    \subitem {center\+Window}, 7
+  \item {center\+Window}
+    \subitem {C\+P\+U}, 7
+    \subitem {Main\+Window}, 8
+    \subitem {Memory}, 9
+    \subitem {Sett}, 10
+    \subitem {Usr}, 11
+
+  \indexspace
+
+  \item {find\+Users}
+    \subitem {Usr}, 12
+
+  \indexspace
+
+  \item {Main\+Window}, 7
+    \subitem {center\+Window}, 8
+    \subitem {Main\+Window}, 8
+  \item {Memory}, 8
+    \subitem {center\+Window}, 9
+    \subitem {Memory}, 9
+
+  \indexspace
+
+  \item {Sett}, 9
+    \subitem {center\+Window}, 10
+    \subitem {Sett}, 10
+
+  \indexspace
+
+  \item {Usr}, 11
+    \subitem {center\+Window}, 11
+    \subitem {find\+Users}, 12
+    \subitem {Usr}, 11
+
+\end{theindex}
