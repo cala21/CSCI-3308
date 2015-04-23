@@ -1,15 +1,11 @@
 <?php
     require("config.php");
-/*    if(empty($_SESSION['username'])) 
-    {
-        header("Location: index.php");
-        die("Redirecting to index.php"); 
-    }*/
+
 ?>
 <?php
 //$query_user= "SELECT username FROM user";
 $user = $_GET['user'];
-$dir    = "/var/www/RAID/{$user}";
+$dir    = $_SESSION['userpath'];
 $files1 = scandir($dir);
 $files2 = scandir($dir, 1);
 
@@ -73,18 +69,28 @@ print_r($files2);
 <?php
             //scan "uploads" folder and display them accordingly
            //$query_user= "SELECT username FROM user";
+          $user = $_GET['user'];
+          $dir    = $_SESSION['userpath'];
+          $files1 = scandir($dir);
+          $files2 = scandir($dir, 1);
+
+        //  print_r($files1);
+         // print_r($files2);
            $user = $_GET['user'];
-           $folder = "/var/www/RAID/{$user}";
-           $results = scandir("/var/www/RAID/{$user}");
+           $folder = $dir;
+           $results = scandir($dir);
            foreach ($results as $result) {
             if ($result === '.' or $result === '..') continue;
             
             if (is_file($folder . '/' . $result)) {
+                
+                print_r($files1);
                 echo '
                 <div class="col-md-3">
                     <div class="thumbnail">
-                        <img src="'.$folder . '/' . $result.'" alt="...">
-                            <div class="caption">
+                        <img src="'.$folder . '/' .$result.'" alt="...">
+                        
+                        <div class="caption">
                             <p><a href="remove.php?name='.$result.'" class="btn btn-danger btn-xs" role="button">Remove</a></p>
                         </div>
                     </div>

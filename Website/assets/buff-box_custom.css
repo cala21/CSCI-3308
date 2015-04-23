@@ -7,7 +7,7 @@ p
 {
 	font-family:"Indie Flower";
 }
-/*container for buffbox navigation  */
+
 .buttons_container
 {
 	top:20px;
@@ -16,7 +16,7 @@ p
 	position:relative;
 	margin:100px auto;
 }
-/*top-left triangle button (About)*/
+
 .left-triangle {
 	position:absolute;
 	top:-24px;
@@ -26,7 +26,7 @@ p
 	border-top: 56px solid transparent;
 	border-bottom: 56px solid transparent;
 }
-/*top-right triangle button (Contact) */
+
 .right-triangle {
 	position:absolute;
 	top:-24px;
@@ -37,7 +37,7 @@ p
 	border-top: 56px solid transparent;
 	border-bottom: 56px solid transparent;
 }
-/*lower left button (Register)*/
+
 .left_button
 {
     position:absolute;
@@ -49,7 +49,7 @@ p
     -webkit-transform:skew(0deg,35deg);
     -moz-transform:skew(0deg,35deg);
 }
-/*lower right button (Login)*/
+
 .right_button
 {
     position:absolute;
@@ -71,7 +71,7 @@ p
 {
 
 }
-/*change button colors when hovered*/
+
 .top_button:hover, .left_button:hover, .right_button:hover
 {
     background:#FFF61A;
