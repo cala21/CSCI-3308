@@ -44,7 +44,7 @@ print_r($files2);
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand">BuFfBoX.</a>
+      <a class="brand" href="/"><img src="assets/Logo_nobg.png" width="50"> BuFfBoX.</a>
       <div class="nav-collapse">
         <ul class="nav pull-right">
           <li><a href="register.php">Register</a></li>
