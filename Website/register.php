@@ -129,10 +129,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand">BuFfBoX.</a>
+      <a class="brand" href="/"><img src="assets/Logo_nobg.png" width="50"> BuFfBoX.</a>
       <div class="nav-collapse">
         <ul class="nav pull-right">
-          <li><a href="index.php">Return Home</a></li>
+          <li><a href="/">Return Home</a></li>
         </ul>
       </div>
     </div>
