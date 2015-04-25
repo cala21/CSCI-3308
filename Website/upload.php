@@ -29,18 +29,24 @@ if ($_FILES["fileToUpload"]["size"] > 5000000000000) {
 // Check if $uploadOk is set to 0 by an error
 if ($uploadOk == 0) {
     echo "Sorry, your file was not uploaded. You will now be redirected. \n";
-    header( "refresh:5; url=http://buff-box.com/secret.php"); 
+    header("Location: secret.php"); 
+            die("Redirecting to: secret.php"); 
+    //header( "refresh:5; url=http://buff-box.com/secret.php"); 
 // if everything is ok, try to upload file
 } 
 else {
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
         echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.\n";
-        header( "refresh:5; url=http://buff-box.com/secret.php"); 
+        header("Location: secret.php"); 
+            die("Redirecting to: secret.php"); 
+       // header( "refresh:5; url=http://buff-box.com/secret.php"); 
 
     } 
     else {
         echo "Sorry, there was an error uploading your file.\n";
-        header( "refresh:5; url=http://buff-box.com/secret.php"); 
+        header("Location: secret.php"); 
+            die("Redirecting to: secret.php"); 
+        //header( "refresh:5; url=http://buff-box.com/secret.php"); 
 
     }
 }

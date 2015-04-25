@@ -84,17 +84,19 @@ print_r($files2);
             
             if (is_file($folder . '/' . $result)) {
                 
-                print_r($files1);
+                print_r(array_pop($files1)/*$files1*/);
                 echo '
                 <div class="col-md-3">
                     <div class="thumbnail">
                         <img src="'.$folder . '/' .$result.'" alt="...">
-                        
+                        <a href="download.php">Download</a>
                         <div class="caption">
                             <p><a href="remove.php?name='.$result.'" class="btn btn-danger btn-xs" role="button">Remove</a></p>
                         </div>
                     </div>
                 </div>';
+               // $files1 = scandir($dir, 1);
+
             }
            }
            ?>
