@@ -12,11 +12,11 @@ Thanks to the implementation of a LCD touch screen (Adafruit 2.8") the admin wil
 The RPi hosts http://Buff-box.com. This Website will allow to access the BuFfBox system and store the personal data in the RPi NAS storage. The system's memory is implemented using a RAID 1 for safe backups of the data.
 
 ### Repository Organization
-In the main window can be found the project assignment parts (1-9), the folders to the documentation of the website and GUI and the folders containing the useful code to build and run the GUI and the website.
+In the main window you can find the project assignment parts (1-9), the folders to the documentation of the website and GUI and the folders containing the useful code to build and run the GUI and the website.
 
 ### Documentation files
 #### Website
-The documentation for the website (http://Buff-box.com) is stored in the folder "Website_Documentation", where can be found two subfolders "html" and "latex". In "htlm" you can find a pdf file describing all the .php code that was written to create the BuFfBoX website. In addition to the plain pdf file, a make file can be run from the terminal after having cloned the repository. This will allow you to recreate the pdf file from the .tex file stored as well in the same subfolder. In the "latex" directory you can find all the useful html pages that can be open in the browser. The pages are combined together to give a nice doxygen interface of the tree of the classes created, their descriptions and their public functions. 
+The documentation for the website (http://Buff-box.com) is stored in the folder "Website_Documentation", where you will find two subfolders "html" and "latex". In "htlm" you can find a pdf file describing all the .php code that was written to create the BuFfBoX website. In addition to the plain pdf file, a make file can be run from the terminal after having cloned the repository. This will allow you to recreate the pdf file from the .tex file stored as well in the same subfolder. In the "latex" directory you can find all the useful html pages that can be open in the browser. The pages are combined together to give a nice doxygen interface of the tree of the classes created, their descriptions and their public functions. 
 
 #### GUI
 The documentation for the GUI is stored in the folder "Gui_Documentation", where you will find two subfolders "htlm" and "latex". The description of the Gui documentation is analogous to the already described website documentation. No further explanation is needed.
