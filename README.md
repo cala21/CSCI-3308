@@ -12,7 +12,7 @@ Thanks to the implementation of a LCD touch screen (Adafruit 2.8") the admin wil
 The RPi hosts http://Buff-box.com. This Website will allow to access the BuFfBox system and store the personal data in the RPi NAS storage. The system's memory is implemented using a RAID 1 for safe backups of the data.
 
 ### Repository Organization
-In the main window you can find the project assignment parts (1-9), the folders to the documentation of the website and GUI and the folders containing the useful code to build and run the GUI and the website.
+In the main window you can find the project assignment parts (1-9), the folders to the two different documentations and the folders containing the useful code to build and run the GUI and the website.
 
 ### Documentation files
 #### Website
