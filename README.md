@@ -26,11 +26,9 @@ The documentation for the GUI is stored in the folder "Gui_Documentation", where
 
 
 #### Gui
-In order to be able to build and successfully run the Gui on your RPi you must:
+In order to be able to build and successfully run the Gui on your RPi you must install in the board qt4 and boost by typing:
 * apt-get qt4-dev-tools
 * apt-get boost
-
-in the board.
 
 Once all the packages are installed without errors you must copy the folder "GuiRasp" in the RPi, then type the following commands:
 * cd /path/to/GuiRasp
