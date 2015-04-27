@@ -23,7 +23,13 @@ The documentation for the GUI is stored in the folder "Gui_Documentation", where
 
 ### How to build/run/test the code
 #### Website
+To run the website:
 
+* Start up Raspberry Pi and make sure it is connected to the network
+* Get the IP address from the raspberry pi by running this command in the terminal:
+  * sudo ipconfig
+  * The IP address will be the "inet addr" entry
+* As the IP addresses on the school's network are dynamic, connecting to the GoDaddy domain isn't possible. To connect to the website on the school's network, enter the IP address directly into the adress bar. This should bring you directly to the BuffBox website. 
 
 #### Gui
 In order to be able to build and successfully run the Gui on your RPi you must install in the board qt4 and boost by typing:
