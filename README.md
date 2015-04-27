@@ -36,11 +36,11 @@ Once all the packages are installed without errors you must copy the folder "Gui
 * make
 
 
-Congratulations! If you didn't get errors now you are able to execute the GUI typing "./GuiRasp".
+Congratulations! If you didn't get errors now you are able to execute the GUI ("./GuiRasp").
 
   Note:
-* The customized GUI was created to be displayed on a LCD screen 2.8"
+* The customized GUI was created to be displayed on a LCD screen 2.8".
 * If you want to run the application you must start the X11 server first, this is done executing the command "startx" in the RPi. This will start the Debian UI from which you can navigate to your GuiRasp folder and execute the customized GUI.
-* If you want to run it directly type "startx /path/to/GuiRasp/GuiRasp"
+* If you want to run it directly type "startx /path/to/GuiRasp/GuiRasp".
 
 Developers: Conor Walsh, Camilla Lambrocco, Adrian Wong, Andrew Berumen, John Anderson
