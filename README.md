@@ -35,8 +35,8 @@ To run the website:
 #### Website Unit Test
 To run PHPUnit, first download the necessary files from https://phpunit.de/getting-started.html . Then, to run the test files type these commands into the terminal:
 
- * phpunit --bootstrap src/autoload.php PHPUnit tests/RemoteConnectTest.php
- * phpunit --bootstrap src/autoload.php PHPUnit tests/testUsername.php
+ * phpunit --bootstrap src/autoload.php PHPUnit\ tests/RemoteConnectTest.php
+ * phpunit --bootstrap src/autoload.php PHPUnit\ tests/testUsername.php
  
 
 #### Gui
