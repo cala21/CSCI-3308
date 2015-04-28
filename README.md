@@ -33,7 +33,7 @@ To run the website:
 * As the IP addresses on the school's network are dynamic, connecting to the GoDaddy domain isn't possible. To connect to the website on the school's network, enter the IP address directly into the address bar. This should bring you directly to the BuffBox website. 
 
 #### Website Unit Test
-To run PHPUnit, first download the necessary files from https://phpunit.de/getting-started.html . Then, To run the test files, run these commands in the terminal:
+To run PHPUnit, first download the necessary files from https://phpunit.de/getting-started.html . Then, to run the test files type these commands into the terminal:
 
  * phpunit --bootstrap src/autoload.php PHPUnit tests/RemoteConnectTest.php
  * phpunit --bootstrap src/autoload.php PHPUnit tests/testUsername.php
